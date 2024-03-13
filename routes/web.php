@@ -24,3 +24,7 @@ Route::get('/about', function (){
 Route::get('/report',function (){
     return "Report Feature";
 });
+
+Route::get('/test',function (){
+    return "Test";
+});
